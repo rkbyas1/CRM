@@ -318,6 +318,6 @@ def ranking_items():
     return render_template("4-3.result_ranking.html",statistics_type=statistics_type, items=items)
 
 
-# 実行部#
+# 実行部
 if __name__=="__main__":
     app.run(host="127.0.0.1", port=int("5000"),debug=True)
